@@ -16,14 +16,12 @@ import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+
 import jakarta.persistence.JoinColumn;
 
 @Entity
 @Table(name = "tbl_cliente")
-@Getter
-@Setter
+
 @Data
 public class Cliente {
 	@Id
